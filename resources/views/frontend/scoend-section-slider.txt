@@ -1,0 +1,273 @@
+   <div id="slider" class="slider-element revslider-wrap">
+                                    <div id="rev_slider_141_1_wrapper" class="rev_slider_wrapper fullwidth-container"
+                                        data-alias="club-flyer" data-source="gallery"
+                                        style="background:transparent;padding:0px;">
+                                        <!-- START REVOLUTION SLIDER 5.4.8.1 fullscreen mode -->
+                                        <div id="rev_slider_141_1" class="rev_slider fullscreenbanner" style="display:none;"
+                                            data-version="5.4.8.1">
+                                            @if (count($banners) > 0)
+                                                <ul>
+                                                    <!-- SLIDE  -->
+                                                    @foreach ($banners as $banner)
+                                                        <li data-index="rs-357" data-transition="fade"
+                                                            data-slotamount="default" data-hideafterloop="0"
+                                                            data-hideslideonmobile="off" data-easein="default"
+                                                            data-easeout="default" data-masterspeed="300" data-rotate="0"
+                                                            data-saveperformance="off" data-title="Slide" data-param1=""
+                                                            data-param2="" data-param3="" data-param4="" data-param5=""
+                                                            data-param6="" data-param7="" data-param8="" data-param9=""
+                                                            data-param10="" data-description="">
+                                                            <!-- MAIN IMAGE -->
+                                                            <img src="{{ asset('frontend3/img/transparent.png') }}"
+                                                                data-bgcolor='linear-gradient(180deg,rgba(46,0,104,1)0%,rgba(46,0,104,1)0%,rgba(67,3,107,1)50%,rgba(228,95,228,1)100%,rgba(228,95,228,1)100%)'
+                                                                style='background:linear-gradient(180deg,rgba(46,0,104,1)0%,rgba(46,0,104,1)0%,rgba(67,3,107,1)50%,rgba(228,95,228,1)100%,rgba(228,95,228,1)100%)'
+                                                                alt="Image" data-bgposition="center center"
+                                                                data-bgfit="cover" data-bgrepeat="no-repeat"
+                                                                data-bgparallax="off" class="rev-slidebg" data-no-retina>
+                                                            <!-- LAYERS -->
+
+                                                            <!-- LAYER NR. 1 -->
+                                                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-5"
+                                                                id="slide-357-layer-12"
+                                                                data-x="['center','center','center','center']"
+                                                                data-hoffset="['250','220','180','110']"
+                                                                data-y="['middle','middle','middle','middle']"
+                                                                data-voffset="['0','0','0','40']" data-width="none"
+                                                                data-height="none" data-whitespace="nowrap"
+                                                                data-type="image" data-basealign="slide"
+                                                                data-responsive_offset="on"
+                                                                data-frames='[{"delay":50,"speed":2000,"frame":"0","from":"x:300px;sX:1.2;sY:1.2;opacity:1;fb:30px;","to":"o:1;fb:0px;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                                                                data-textAlign="['inherit','inherit','inherit','inherit']"
+                                                                data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
+                                                                data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+                                                                style="z-index: 5;"><img
+                                                                    src="{{ asset('frontend3/img/smoke_png4-1.png') }}"
+                                                                    alt="Image"
+                                                                    data-ww="['1000px','1000px','1000px','700px']"
+                                                                    data-hh="['1167px','1167px','1167px','817px']"
+                                                                    data-no-retina> </div>
+
+                                                            <!-- LAYER NR. 2 -->
+                                                            <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme rs-parallaxlevel-9"
+                                                                id="slide-357-layer-4"
+                                                                data-x="['center','center','center','center']"
+                                                                data-hoffset="['0','0','0','0']"
+                                                                data-y="['top','top','top','top']"
+                                                                data-voffset="['80','80','80','80']"
+                                                                data-width="['500','500','500','320']"
+                                                                data-height="['550','430','480','420']"
+                                                                data-whitespace="nowrap" data-type="shape"
+                                                                data-responsive_offset="on"
+                                                                data-frames='[{"delay":300,"speed":4000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                                                data-textAlign="['inherit','inherit','inherit','inherit']"
+                                                                data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
+                                                                data-paddingbottom="[0,0,0,0]"
+                                                                data-paddingleft="[0,0,0,0]"
+                                                                style="z-index: 6;border-color:rgb(255,255,255);border-style:solid;border-width:12px 12px 12px 12px;">
+                                                            </div>
+
+                                                            <!-- LAYER NR. 3 -->
+                                                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-9"
+                                                                id="slide-357-layer-1"
+                                                                data-x="['left','left','left','left']"
+                                                                data-hoffset="['407','300','177','118']"
+                                                                data-y="['top','top','top','top']"
+                                                                data-voffset="['109','109','109','115']"
+                                                                data-fontsize="['100','80','80','70']"
+                                                                data-lineheight="['90','70','70','60']" data-width="none"
+                                                                data-height="none" data-whitespace="nowrap"
+                                                                data-type="text" data-responsive_offset="on"
+                                                                data-frames='[{"delay":400,"speed":4000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                                                data-textAlign="['inherit','inherit','inherit','inherit']"
+                                                                data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
+                                                                data-paddingbottom="[0,0,0,0]"
+                                                                data-paddingleft="[0,0,0,0]"
+                                                                style="z-index: 7; white-space: nowrap; font-size: 100px; line-height: 90px; font-weight: 900; color: #000; letter-spacing: 0px;font-family:Roboto;text-transform:uppercase;">
+                                                                GET </div>
+
+                                                            <!-- LAYER NR. 4 -->
+                                                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-9"
+                                                                id="slide-357-layer-6"
+                                                                data-x="['left','left','left','left']"
+                                                                data-hoffset="['407','300','177','118']"
+                                                                data-y="['top','top','top','top']"
+                                                                data-voffset="['200','186','186','184']"
+                                                                data-fontsize="['100','80','80','70']"
+                                                                data-lineheight="['90','70','70','60']" data-width="none"
+                                                                data-height="none" data-whitespace="nowrap"
+                                                                data-type="text" data-responsive_offset="on"
+                                                                data-frames='[{"delay":500,"speed":4000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                                                data-textAlign="['inherit','inherit','inherit','inherit']"
+                                                                data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
+                                                                data-paddingbottom="[0,0,0,0]"
+                                                                data-paddingleft="[0,0,0,0]"
+                                                                style="z-index: 8; white-space: nowrap; font-size: 100px; line-height: 90px; font-weight: 900; color: #000; letter-spacing: 0px;font-family:Roboto;text-transform:uppercase;">
+                                                                YOUR
+                                                            </div>
+
+                                                            <!-- LAYER NR. 5 -->
+                                                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-9"
+                                                                id="slide-357-layer-7"
+                                                                data-x="['left','left','left','left']"
+                                                                data-hoffset="['407','300','177','118']"
+                                                                data-y="['top','top','top','top']"
+                                                                data-voffset="['292','264','264','254']"
+                                                                data-fontsize="['100','80','80','70']"
+                                                                data-lineheight="['90','70','70','60']" data-width="none"
+                                                                data-height="none" data-whitespace="nowrap"
+                                                                data-type="text" data-responsive_offset="on"
+                                                                data-frames='[{"delay":600,"speed":4000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                                                data-textAlign="['inherit','inherit','inherit','inherit']"
+                                                                data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
+                                                                data-paddingbottom="[0,0,0,0]"
+                                                                data-paddingleft="[0,0,0,0]"
+                                                                style="z-index: 9; white-space: nowrap; font-size: 100px; line-height: 90px; font-weight: 300; color: #000; letter-spacing: 0px;font-family:Roboto;text-transform:uppercase;">
+                                                                CHANCE </div>
+
+                                                            <!-- LAYER NR. 6 -->
+                                                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-9"
+                                                                id="slide-357-layer-8"
+                                                                data-x="['left','left','left','left']"
+                                                                data-hoffset="['407','300','177','118']"
+                                                                data-y="['top','top','top','top']"
+                                                                data-voffset="['383','341','341','324']"
+                                                                data-fontsize="['100','80','80','70']"
+                                                                data-lineheight="['90','70','70','60']" data-width="none"
+                                                                data-height="none" data-whitespace="nowrap"
+                                                                data-type="text" data-responsive_offset="on"
+                                                                data-frames='[{"delay":700,"speed":4000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                                                data-textAlign="['inherit','inherit','inherit','inherit']"
+                                                                data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
+                                                                data-paddingbottom="[0,0,0,0]"
+                                                                data-paddingleft="[0,0,0,0]"
+                                                                style="z-index: 10; white-space: nowrap; font-size: 100px; line-height: 90px; font-weight: 100; color: #000; letter-spacing: 0px;font-family:Roboto;text-transform:uppercase;">
+                                                                TODAY
+                                                            </div>
+
+                                                            <!-- LAYER NR. 7 -->
+                                                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-10"
+                                                                id="slide-357-layer-10"
+                                                                data-x="['left','left','left','left']"
+                                                                data-hoffset="['407','300','177','118']"
+                                                                data-y="['top','top','top','top']"
+                                                                data-voffset="['497','427','427','401']" data-width="none"
+                                                                data-height="none" data-whitespace="nowrap"
+                                                                data-type="text"
+                                                                data-explodinglayersin='{"type_in":["M12 4L4 20L20 20z","M12 4L4 20L20 20z","M12 4L4 20L20 20z","M12 4L4 20L20 20z"],"style_in":["fill","fill","fill","fill"],"size_in":["5","5","5","5"],"color_in":["#000000","#000000","#000000","#000000"],"speed_in":["5","5","5","5"],"density_in":["1","1","1","1"],"power_in":["25","25","25","25"],"padding_in":["150","150","150","150"],"direction_in":["right","right","right","right"],"randomsize_in":["on","on","on","on"],"randomspeed_in":["on","on","on","on"],"sync_in":["on","on","on","on"],"easing_in":["Power3.easeInOut","Power3.easeInOut","Power3.easeInOut","Power3.easeInOut"],"duration_in":[1000,1000,1000,1000]}'
+                                                                data-responsive_offset="on"
+                                                                data-frames='[{"delay":300,"speed":1000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                                                data-textAlign="['inherit','inherit','inherit','inherit']"
+                                                                data-paddingtop="[0,0,0,0]"
+                                                                data-paddingright="[10,10,10,10]"
+                                                                data-paddingbottom="[0,0,0,0]"
+                                                                data-paddingleft="[10,10,10,10]"
+                                                                style="z-index: 11; white-space: nowrap; font-size: 25px; line-height: 40px; font-weight: 900; color: #ffffff; letter-spacing: 0px;font-family:Roboto;text-transform:uppercase;background-color:rgb(0,0,0);">
+                                                                @SmartBox </div>
+
+                                                            <!-- LAYER NR. 8 -->
+                                                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-8"
+                                                                id="slide-357-layer-3"
+                                                                data-x="['left','left','left','center']"
+                                                                data-hoffset="['407','300','177','0']"
+                                                                data-y="['top','top','top','top']"
+                                                                data-voffset="['36','36','36','40']"
+                                                                data-fontsize="['25','25','25','20']"
+                                                                data-lineheight="['30','30','30','25']" data-width="none"
+                                                                data-height="none" data-whitespace="nowrap"
+                                                                data-type="text" data-responsive_offset="on"
+                                                                data-frames='[{"delay":900,"speed":1000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                                                data-textAlign="['inherit','inherit','inherit','inherit']"
+                                                                data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
+                                                                data-paddingbottom="[0,0,0,0]"
+                                                                data-paddingleft="[0,0,0,0]"
+                                                                style="z-index: 12; white-space: nowrap; font-size: 25px; line-height: 30px; font-weight: 300; color: #000; letter-spacing: 4px;font-family:Roboto;text-transform:uppercase;">
+                                                                FRIDAY JUNE 29 | 2:00am </div>
+
+                                                            <!-- LAYER NR. 9 -->
+                                                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-5"
+                                                                id="slide-357-layer-14"
+                                                                data-x="['center','center','center','center']"
+                                                                data-hoffset="['361','331','291','188']"
+                                                                data-y="['middle','middle','middle','middle']"
+                                                                data-voffset="['-143','-143','-143','-60']"
+                                                                data-width="none" data-height="none"
+                                                                data-whitespace="nowrap" data-type="image"
+                                                                data-basealign="slide" data-responsive_offset="on"
+                                                                data-frames='[{"delay":50,"speed":2000,"frame":"0","from":"x:300px;sX:1.2;sY:1.2;opacity:1;fb:30px;","to":"o:1;fb:0px;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                                                                data-textAlign="['inherit','inherit','inherit','inherit']"
+                                                                data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
+                                                                data-paddingbottom="[0,0,0,0]"
+                                                                data-paddingleft="[0,0,0,0]" style="z-index: 13;"><img
+                                                                    src="{{ asset('frontend3//img/smoke_overlay.png') }}"
+                                                                    alt="Image"
+                                                                    data-ww="['297px','297px','297px','208px']"
+                                                                    data-hh="['192px','192px','192px','134px']"
+                                                                    data-no-retina> </div>
+
+                                                            <!-- LAYER NR. 10 -->
+                                                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-8"
+                                                                id="slide-357-layer-16"
+                                                                data-x="['center','center','center','center']"
+                                                                data-hoffset="['0','0','0','0']"
+                                                                data-y="['top','top','top','top']"
+                                                                data-voffset="['670','540','590','525']"
+                                                                data-fontsize="['25','25','25','15']"
+                                                                data-lineheight="['30','30','30','20']" data-width="none"
+                                                                data-height="none" data-whitespace="nowrap"
+                                                                data-type="text" data-responsive_offset="on"
+                                                                data-frames='[{"delay":1000,"speed":1000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                                                data-textAlign="['inherit','inherit','inherit','inherit']"
+                                                                data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
+                                                                data-paddingbottom="[0,0,0,0]"
+                                                                data-paddingleft="[0,0,0,0]"
+                                                                style="z-index: 14; white-space: nowrap; font-size: 25px; line-height: 30px; font-weight: 400; color: #000; letter-spacing: 4px;font-family:Roboto;text-transform:uppercase;">
+                                                                BY SMARTBOX | Newservices| NewProduct </div>
+
+                                                            <!-- LAYER NR. 11 -->
+                                                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-8"
+                                                                id="slide-357-layer-17"
+                                                                data-x="['center','center','center','center']"
+                                                                data-hoffset="['0','0','0','0']"
+                                                                data-y="['top','top','top','top']"
+                                                                data-voffset="['710','580','630','556']"
+                                                                data-fontsize="['25','25','25','15']"
+                                                                data-lineheight="['30','30','30','20']" data-width="none"
+                                                                data-height="none" data-whitespace="nowrap"
+                                                                data-type="text" data-responsive_offset="on"
+                                                                data-frames='[{"delay":1100,"speed":1000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                                                data-textAlign="['inherit','inherit','inherit','inherit']"
+                                                                data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
+                                                                data-paddingbottom="[0,0,0,0]"
+                                                                data-paddingleft="[0,0,0,0]"
+                                                                style="z-index: 15; white-space: nowrap; font-size: 25px; line-height: 30px; font-weight: 300; color: #000; letter-spacing: 5px;font-family:Roboto;text-transform:uppercase;">
+                                                                TICKETS $35 </div>
+
+                                                            <!-- LAYER NR. 12 -->
+                                                            <a class="tp-caption rev-btn  tp-resizeme rs-parallaxlevel-9"
+                                                                href="{{ route('allgroupOfProduct') }}" target="_blank"
+                                                                id="slide-357-layer-18"
+                                                                data-x="['center','center','center','center']"
+                                                                data-hoffset="['0','0','0','0']"
+                                                                data-y="['top','top','top','top']"
+                                                                data-voffset="['780','650','730','600']"
+                                                                data-width="['500','500','500','320']" data-height="none"
+                                                                data-whitespace="nowrap" data-type="button"
+                                                                data-explodinglayersin='{"type_in":["M12 4L4 20L20 20z","M12 4L4 20L20 20z","M12 4L4 20L20 20z","M12 4L4 20L20 20z"],"style_in":["fill","fill","fill","fill"],"size_in":["10","10","10","10"],"color_in":["#000000","#000000","#000000","#000000"],"speed_in":["5","5","5","5"],"density_in":["2","2","2","2"],"power_in":["50","50","50","50"],"padding_in":["150","150","150","150"],"direction_in":["right","right","right","right"],"randomsize_in":["on","on","on","on"],"randomspeed_in":["on","on","on","on"],"sync_in":["on","on","on","on"],"easing_in":["Power3.easeInOut","Power3.easeInOut","Power3.easeInOut","Power3.easeInOut"],"duration_in":[1200,1200,1200,1200]}'
+                                                                data-actions='' data-responsive_offset="on"
+                                                                data-frames='[{"delay":1500,"speed":1200,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"150","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(0,0,0,1);bg:rgba(255,255,255,1);bs:solid;bw:0 0 0 0;"}]'
+                                                                data-textAlign="['center','center','center','center']"
+                                                                data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
+                                                                data-paddingbottom="[0,0,0,0]"
+                                                                data-paddingleft="[0,0,0,0]"
+                                                                style="z-index: 16; min-width: 500px; max-width: 500px; white-space: nowrap; font-size: 25px; line-height: 60px; font-weight: 900; color: rgba(255,255,255,1); letter-spacing: ;font-family:Roboto;background-color:rgb(0,0,0);border-color:rgba(0,0,0,1);outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration: none;">BUY
+                                                                TICKETS </a>
+                                                        </li>
+                                                    @endforeach
+                                                </ul>
+                                            @endif
+
+                                            <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;">
+                                            </div>
+                                        </div>
+                                    </div><!-- END REVOLUTION SLIDER -->
+                                </div>

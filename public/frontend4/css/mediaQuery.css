@@ -1,0 +1,134 @@
+@media screen and (max-width: 570px){
+    .popup-content{
+        padding: 0px;
+        width: 70%;
+        left: 15%;
+        top: 20%;
+    }
+
+
+    #social-links ul {
+        display: flex;
+        color: #fff;
+        background-color: #fff;
+        border-radius: 25px;
+        /* padding-top: 14px; */
+    }
+
+    .popup-content p{
+        font-size: 2.5rem;
+    }
+    .popupedit{
+        width:100%!important;
+    }
+    .center.pop{
+        font-size: 2.4rem;
+    }
+
+    .h2popup{
+        font-size: 1rem;
+    }
+
+    .cmn-btn.style--two.d-flex.align-items-center{
+        font-size: 0.95rem;
+        margin-bottom: 15%;
+    }
+
+    .img-container{
+        bottom: 31px;
+        position: absolute;
+        left: 30%;
+        max-width: 73%;
+        text-align: center;
+    }
+
+    .section-title2 {
+        font-size: 12px;
+
+        font-weight: 800;
+        text-align: center;
+    }
+
+    .cmn-btn {
+        padding: 3px 15px;
+        font-size: 10px;
+        font-weight: 900;
+    }
+    .contant-callus {
+        font-size: 10px;
+    }
+
+}
+
+@media screen
+  and (min-width: 651px)
+  and (max-width: 950px){
+
+
+    .img-container{
+        bottom: 87px;
+        position: absolute;
+        left: 14%;
+        max-width: 73%;
+        text-align: center;
+    }
+
+    .section-title2 {
+        font-size: 30px;
+        font-weight: 800;
+        text-align: center;
+    }
+
+    .cmn-btn {
+        padding: 3px 15px;
+        font-size: 17px;
+        font-weight: 900;
+    }
+    .contant-callus {
+        font-size: 20px;
+    }
+}
+
+@media screen
+and (min-width: 951px)
+and (max-width: 1200px)
+{
+    .img-container{
+        bottom: 50px;
+        position: absolute;
+        left: 12%;
+        max-width: 70%;
+        text-align: center;
+        width: 100%;
+    }
+
+    .section-title2 {
+        font-size: 22px;
+        font-weight: 800;
+        text-align: center;
+    }
+
+    .cmn-btn {
+        padding: 3px 15px;
+        font-size: 17px;
+        font-weight: 900;
+    }
+    .contant-callus {
+        font-size: 20px;
+    }
+
+    .winnername {
+
+        font-size: 32px;
+
+    }
+
+}
+@media screen and (min-width: 1200px)
+{
+    .contant-callus {
+        font-size: 10px;
+        margin-bottom:10% ;
+    }
+}
+

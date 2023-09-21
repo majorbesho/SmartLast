@@ -1,0 +1,78 @@
+
+        {{-- <div class="col-lg-12">
+          <div class="contest-cart">
+            <div class="contest-cart__left">
+              <div class="contest-cart__slider-area">
+                <div class="contest-cart__thumb-slider">
+                    @php
+                    $photos =explode(',',$gop->photo);
+                @endphp
+                 @foreach ($photos as $key=>$photo )
+                 <div class="single-slide">
+                    <img src="{{$gop->photo}}" alt="image" width="250px" class="box-img-main">
+                </div>
+
+                 @endforeach
+                </div><!-- contest-cart__thumb-slider end -->
+                <div class="contest-cart__nav-slider">
+
+                    @php
+                    $photos =explode(',',$gop->photo);
+                @endphp
+                  <div class="single-slide">
+                    <img src="{{$gop->photo}}" alt="image" style="border-radius: 25px;">
+                </div>
+
+                </div><!-- contest-cart__nav-slider end -->
+              </div>
+            </div><!-- contest-cart__left end -->
+            <div class="contest-cart__right">
+              <h4 class="subtitle">Enter now for a chance to win</h4>
+              <h3 class="contest-name">{{$gop->title}}</h3>
+              <p>This competition has a maximum of  entries.</p>
+              <div class="contest-num">Contest no: <span>B2T</span></div>
+              <h4>Tickets Sold</h4>
+              <div class="ticket-amount">
+                <span class="left">0</span>
+                <span class="right"></span>
+                <div class="progressbar" data-perc="70%">
+                  <div class="bar"></div>
+                </div>
+                <p>{{$gop->price}}</p>
+              </div>
+              <div class="ticket-price">
+                <span class="amount">{{$gop->showPrice}}</span>
+                <small>Per ticket</small>
+              </div>
+              <div class="d-flex flex-wrap align-items-center mb-30">
+                <div class="select-quantity">
+                  <span class="caption">Quantity</span>
+                  <div class="quantity">
+                    <input type="number"  min="0" value="1"  step="1" id="innum" onclick="Calculate()" value="calculate" >
+
+
+                  </div>
+                </div><!-- select-quantity end -->
+                <div class="mt-sm-0 mt-3">
+                    <a href="#0"
+                    data-quantity="1" data-product-id="{{$gop->id}}"
+                    id="add_to_cart{{$gop->id}}"
+                    class="add_to_cart cmn-btn style--three"
+
+                    >buy tickets</a>
+                </div>
+              </div>
+              <ul class="social-links align-items-center" style="display: flex;flex-direction: row;flex-wrap: nowrap;">
+                <li>Share :</li>
+
+                <div class="sharemedia" >
+                    {!! $shareComponent !!}
+                </div>
+
+
+
+
+              </ul>
+            </div><!-- contest-cart__right end -->
+          </div><!-- contest-cart end -->
+        </div><!-- col-lg-12 end --> --}}

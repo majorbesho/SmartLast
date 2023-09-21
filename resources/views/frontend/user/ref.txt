@@ -1,0 +1,42 @@
+level1@smartboxuae.ae
+level2@smartboxuae.ae
+level3@smartboxuae.ae
+level4@smartboxuae.ae
+level5@smartboxuae.ae
+level6@smartboxuae.ae
+
+
+1-2
+2-3
+3-4
+4-5
+5-6
+
+
+
+LOLpopLOL000
+
+
+
+ // $network = networks::with('user')->where('id',$user->id)->get();
+        //return $user;
+        // $userref = networks::with('user')->where('id',$user->id)->get();
+        // $userref = networks::with('user')->where('referral_code', $user->referral_code)->get();
+        //$userref = user::where('id', $user->id)->get();
+
+        //        $userrefcount = networks::where('parent_user_id',$user)->orWhere('user_id',$user)->count();
+
+        // $userrefRevers = user::with('ref')->where('id',$userref)->get();
+
+        // $tree = user::get()->toTree();
+        // dd($tree);
+        // $nodes = user::get()->toTree();
+
+        // $traverse = function ($users, $prefix = '-') use (&$traverse) {
+        //     foreach ($users as $category) {
+        //         echo PHP_EOL.$prefix.' '.$category->name;
+
+        //         $traverse($category->children, $prefix.'-');
+        //     }
+        // };
+        //$result = user::with('ancestors')->where('id', $user->id)->get();
